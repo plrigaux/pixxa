@@ -123,6 +123,14 @@
               "devServerTarget": "pixxa:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {  
+            "baseHref": "https://plrigaux.github.io/pixxa/",
+            "name": "Math trainer",
+            "email": "plr@noreply.com",
+            "noSilent": true}
         }
       }
     }
